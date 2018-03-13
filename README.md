@@ -7,7 +7,7 @@
 [![Dev Dependencies Status](https://img.shields.io/david/dev/microlinkhq/microclap.svg?style=flat-square)](https://david-dm.org/microlinkhq/microclap#info=devDependencies)
 [![NPM Status](https://img.shields.io/npm/dm/microclap.svg?style=flat-square)](https://www.npmjs.org/package/microclap)
 
-> Clap button as Service
+> Clap button as Service.
 
 ## Install
 
