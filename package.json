@@ -19,12 +19,12 @@
   },
   "keywords": [],
   "dependencies": {
-    "@storybook/addon-centered": "~3.3.14",
     "grid-styled": "~3.2.1",
-    "react-clap-button": "~1.0.3",
-    "react-social-sharing": "~1.1.0"
+    "react-clap-button": "~1.0.4",
+    "react-social-sharing": "~1.2.0"
   },
   "devDependencies": {
+    "@storybook/addon-centered": "latest",
     "@storybook/addon-options": "latest",
     "@storybook/addon-viewport": "latest",
     "@storybook/react": "latest",
