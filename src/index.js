@@ -2,9 +2,9 @@ import React from 'react'
 import ClapButton from 'react-clap-button'
 import { Flex, Box } from 'grid-styled'
 
-import Icons from './icons'
+import Icons, { socialNetworks } from './icons'
 
-const microclap = ({orientation, ...props}) => {
+const MicroClap = ({orientation, ...props}) => {
   const flexDirection = orientation === 'vertical' ? 'column' : 'row'
 
   const wrapperProps = {
@@ -21,9 +21,11 @@ const microclap = ({orientation, ...props}) => {
   )
 }
 
-microclap.defaultProps = {
-  icons: ['twitter', 'facebook'],
+MicroClap.defaultProps = {
+  socialNetworks: ['twitter', 'facebook'],
   orientation: 'vertical'
 }
 
-export default microclap
+export default MicroClap
+
+export { socialNetworks }

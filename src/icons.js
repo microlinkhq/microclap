@@ -4,9 +4,8 @@ import styled from 'styled-components'
 
 const getId = icon => icon.toLowerCase()
 
-// TODO: make possible extend `react-social-sharing`
 const createIcon = iconComponent => styled(iconComponent)`
-margin: 0;
+// YOUR CUSTOM STYLE HERE
 `
 
 const Icons = Object.keys(SocialButtons).reduce((acc, icon) => ({
@@ -14,7 +13,9 @@ const Icons = Object.keys(SocialButtons).reduce((acc, icon) => ({
   ...acc
 }), {})
 
-export default ({icons, ...props}) => icons.map(icon => {
+export const socialNetworks = Object.keys(Icons)
+
+export default ({socialNetworks: icons, ...props}) => icons.map(icon => {
   const iconComponent = Icons[getId(icon)]
   const iconProps = { key: icon, ...props }
   return createElement(iconComponent, iconProps)
