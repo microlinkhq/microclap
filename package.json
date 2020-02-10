@@ -20,7 +20,7 @@
   "keywords": [],
   "dependencies": {
     "grid-styled": "~3.2.1",
-    "react-clap-button": "~1.1.1",
+    "react-clap-button": "~1.2.4",
     "react-social-sharing": "~3.0.1",
     "styled-components": "~4.4.0"
   },
