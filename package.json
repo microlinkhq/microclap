@@ -21,7 +21,7 @@
   "dependencies": {
     "grid-styled": "~3.2.1",
     "react-clap-button": "~1.2.4",
-    "react-social-sharing": "~3.0.1",
+    "react-social-sharing": "~3.3.0",
     "styled-components": "~5.1.0"
   },
   "devDependencies": {
