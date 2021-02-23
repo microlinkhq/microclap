@@ -47,7 +47,7 @@
     "npm-check-updates": "latest",
     "prettier-standard": "latest",
     "prop-types": "latest",
-    "react": "^16",
+    "react": "^17",
     "react-dom": "^16",
     "standard": "latest",
     "standard-markdown": "latest",
