@@ -48,7 +48,7 @@
     "prettier-standard": "latest",
     "prop-types": "latest",
     "react": "^18",
-    "react-dom": "^17",
+    "react-dom": "^18",
     "standard": "latest",
     "standard-markdown": "latest",
     "storybook-addon-jsx": "latest"
